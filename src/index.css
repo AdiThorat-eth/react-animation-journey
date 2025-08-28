@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: lau300;
+  src: url(../public/fonts/Lausanne-300.woff2);
+}
+@font-face {
+  font-family: lau500;
+  src: url(../public/fonts/Lausanne-500.woff2);
+}
+
+body {
+  background-color: #000;
+  overflow-x: hidden;
+}
