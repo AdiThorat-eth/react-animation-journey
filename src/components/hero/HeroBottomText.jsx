@@ -11,7 +11,7 @@ const HeroBottomText = () => {
     //         Agency
     //       </Link>
     //     </div>
-    <div className="font-[lau500] flex items-center gap-2 w-full ml-74">
+    <div className="font-[lau500] flex items-center gap-2 w-full ml-74 mb-2">
       <p className="absolute lg:w-[22vw] w-64 lg:right-1 right-0 bottom-28  lg:bottom-32 lg:right-0 font-[lau300] lg:text-[2.1vh] text-xs lg:leading-[1.5] leading-tight">
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; K72 is an agency that builds brands <br />from every angle. Today, tomorrow
         and years <br />from now. We think the best sparks fly when <br />comfort zones get

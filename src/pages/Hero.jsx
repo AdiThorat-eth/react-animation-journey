@@ -47,13 +47,15 @@ const Hero = () => {
         <HeroBottomText />
       </div>
 
-      <div className="c-clock absolute bottom-0 left-5 text-xl text-white font-[lau500] z-20 flex items-center gap-2">
-  <svg role="img" aria-label="Globe icon" className="w-6 h-6 fill-#ffff">
-    <use xlinkHref="assets/images/sprite.svg#globe"></use>
-  </svg>
-  <span>MONTREAL_{time}</span>
-</div>
+      <div className="c-clock absolute bottom-2 left-2 text-xl text-white font-[lau500] z-20 flex items-center gap-2">
+        <img
+          src="/images/internet.png"
+          alt="Globe icon"
+          className="w-8 h-8 filter brightness-0 invert mr-3"
+        />
 
+        <span>MONTREAL_{time}</span>
+      </div>
     </div>
   );
 };

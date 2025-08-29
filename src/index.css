@@ -13,3 +13,24 @@ body {
   background-color: #000;
   overflow-x: hidden;
 }
+
+@keyframes circleLoop {
+  0% {
+    stroke-dasharray: 0, 1000;      /* invisible */
+  }
+  40% {
+    stroke-dasharray: 1000, 1000;   /* fully drawn */
+  }
+  60% {
+    stroke-dasharray: 1000, 1000;   /* hold circle */
+  }
+  100% {
+    stroke-dasharray: 0, 1000;      /* vanish */
+  }
+}
+
+.animate-circle {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  animation: circleLoop 4s ease-in-out infinite;
+}
